@@ -3,7 +3,7 @@ import './carsList.css';
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const baseURL = 'http://localhost:3000/cars';
+const baseURL = 'https://cars-app-mocha.vercel.app/cars';
 
 export default function InfoCar(){
   const [car, setCar] = useState(null);

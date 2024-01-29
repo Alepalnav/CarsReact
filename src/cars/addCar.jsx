@@ -13,7 +13,7 @@ export default function AddCar(){
     }
     );
     
-    const baseURL = 'http://localhost:3000/cars';
+    const baseURL = 'https://cars-app-mocha.vercel.app/cars';
     const navigate = useNavigate();
 
     const handleChange = (e) => {

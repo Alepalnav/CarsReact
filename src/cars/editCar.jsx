@@ -10,7 +10,7 @@ export default function EditCar(){
         year: '',
     })
 
-    const baseURL = 'http://localhost:3000/cars';
+    const baseURL = 'https://cars-app-mocha.vercel.app/cars';
     const navigate = useNavigate();
 
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:3000/cars';
+const baseURL = 'https://cars-app-mocha.vercel.app/cars';
 
 const apiService = axios.create({
 baseURL,
